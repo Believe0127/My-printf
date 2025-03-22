@@ -44,7 +44,7 @@ void printf_g(const char *format, ...) {
 
 int main() {
     printf_g("符号付き整数 : %d\n", -123);
-    printf_g("符号なし整数 : %d\n", 123);
+    printf_g("符号なし整数 : %u\n", 123);
     printf_g("16進数 : %x\n", 0x3308A5D0);
     printf_g("浮動小数点 : %f\n", 1.23456789);
     printf_g("文字列 : %s\n", "Hello World!");

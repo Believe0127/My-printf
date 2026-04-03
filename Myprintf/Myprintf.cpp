@@ -37,6 +37,7 @@ void printf_g(const char *format, ...) {
         default:
             fprintf(stderr, "%s: 書式文字列 '%c' がありません\n", __FUNCTION__, *format);
             exit(EXIT_FAILURE);
+            break;
         }
     }
     va_end(args);
